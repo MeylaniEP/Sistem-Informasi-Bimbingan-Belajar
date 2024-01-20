@@ -16,6 +16,7 @@ import Login from "./pages/Login.jsx";
 import { Toaster } from "react-hot-toast";
 import Teacher from "./layout/Teacher.jsx";
 import HomeTeacher from "./pages/teacher_page/HomeTeacher.jsx";
+import ListPresensi from "./pages/teacher_page/ListPresensi.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,6 +29,7 @@ const router = createBrowserRouter(
       <Route element={<Teacher />} path="/teacher">
         <Route index element={<Navigate to="home-teacher" replace />} />
         <Route index element={<HomeTeacher />} path="home-teacher" replace></Route>
+        <Route element={<ListPresensi />} path="list-presensi"/>
       </Route>
     </>
   )

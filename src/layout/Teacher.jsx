@@ -8,7 +8,7 @@ function Teacher() {
     <div>
       <img src={Decoration} className="w-100 position-absolute" />
       <div className="position-relative z-1 mx-4">
-        <div className="d-flex py-4">
+        <div className="d-flex pt-4 mb-2">
           <NavbarTeacher />
         </div>
         <Outlet />

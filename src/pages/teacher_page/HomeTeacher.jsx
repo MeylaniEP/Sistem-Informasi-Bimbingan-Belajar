@@ -4,6 +4,7 @@ import { MdOutlinePublishedWithChanges } from "react-icons/md";
 import { MdOutlinePayment } from "react-icons/md";
 import { MdCoPresent } from "react-icons/md";
 import Schedule from "../../components/components_teacher/Schedule";
+import { NavLink } from "react-router-dom";
 
 function HomeTeacher() {
   return (
@@ -15,7 +16,7 @@ function HomeTeacher() {
         <div
           style={{
             backgroundColor: `var(--primary-cream)`,
-            width: "4rem",
+            width: "3.5rem",
             borderRadius: "100px",
           }}
           className="my-3 mx-4"
@@ -23,18 +24,18 @@ function HomeTeacher() {
           <img src={Profile} className="img-fluid" />
         </div>
         <div>
-          <h4 className="p-0 m-0">Hi, Novaria</h4>
-          <p className="p-0 m-0 text-secondary">110503</p>
+          <h4 className="p-0 m-0" style={{fontSize:"1em"}}>Hi, Novaria</h4>
+          <p className="p-0 m-0 text-secondary" style={{fontSize:"0.7em"}}>110503</p>
         </div>
       </div>
 
       <div className="mt-4">
-        <h3>Jadwal Hari Ini</h3>
+        <h3 style={{fontSize:"1.3em"}}>Jadwal Hari Ini</h3>
         <Schedule />
       </div>
 
       <div>
-        <h4>Menu</h4>
+        <h4 style={{fontSize:"1.3em"}}>Menu</h4>
         <div className="d-flex flex-row justify-content-between">
           <div>
             <div className="card d-flex flex-row justify-content-center align-items-center" style={{height:"4.4rem", backgroundColor:"rgba(245, 202, 195, 0.40)", width:"5rem"}}>
