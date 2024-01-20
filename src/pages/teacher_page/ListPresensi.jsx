@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 function ListPresensi() {
   return (
@@ -7,16 +7,21 @@ function ListPresensi() {
       <div className="d-flex flex-row mt-3 w-100">
         <ul className="nav nav-pills d-flex flex-row gap-3 w-100">
           <li className="nav-item">
-            <NavLink className="day nav-link btn">Hari ini</NavLink>
+            <NavLink to={"presensi-today"} className="nav-link btn fw-bold" activeClassName="active">Hari ini</NavLink>
           </li>
           <li>
-            <NavLink className="btn">Minggu ini</NavLink>
+            <NavLink to={"presensi-week"} className="nav-link btn fw-bold" activeClassName="active">Minggu ini</NavLink>
           </li>
         </ul>
       </div>
+      <Outlet />
       <style>{`
-      .day.active {
-        background-color: var(--primary-yellow) ;
+      .nav-link.btn{
+        background-color: #fff;
+        color: #000;
+      }
+      .nav-link.btn.active {
+        background-color: var(--primary-yellow) !important;
       }
       `}</style>
     </div>

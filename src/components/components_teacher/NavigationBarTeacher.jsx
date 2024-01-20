@@ -32,7 +32,7 @@ function NavigationBarTeacher() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to={"/"}
+            <NavLink to={"teacher-profile"}
             className="nav-link card d-flex flex-row justify-content-center align-items-center p-2" 
             activeClassName="active">
               <CiUser style={{fontSize:"1.5em"}}/>
@@ -45,6 +45,11 @@ function NavigationBarTeacher() {
         border-radius: 0.375rem;
         background: #FFF;
         box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+      }
+      .nav-link{
+        border-radius: 0.625rem;
+        background: #FFF;
+        box-shadow: -4px 5px 7.8px 0px rgba(0, 0, 0, 0.25);
       }
       .nav-link.active {
         background-color: var(--primary-red) !important;
