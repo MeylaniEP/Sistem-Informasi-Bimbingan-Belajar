@@ -1,10 +1,9 @@
 import React from "react";
-import Profile from "../../assets/Logo.png";
+import Profile from "../../assets/user.png";
 import { MdOutlinePublishedWithChanges } from "react-icons/md";
 import { MdOutlinePayment } from "react-icons/md";
 import { MdCoPresent } from "react-icons/md";
 import Schedule from "../../components/components_teacher/Schedule";
-import { NavLink } from "react-router-dom";
 
 function HomeTeacher() {
   return (

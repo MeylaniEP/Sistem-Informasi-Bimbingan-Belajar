@@ -12,6 +12,9 @@ function ListPresensi() {
           <li>
             <NavLink to={"presensi-week"} className="nav-link btn fw-bold" activeClassName="active">Minggu ini</NavLink>
           </li>
+          <li>
+            <NavLink to={"presensi-month"} className="nav-link btn fw-bold" activeClassName="active">Bulan ini</NavLink>
+          </li>
         </ul>
       </div>
       <Outlet />

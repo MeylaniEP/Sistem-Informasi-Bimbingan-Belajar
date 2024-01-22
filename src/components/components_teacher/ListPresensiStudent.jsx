@@ -52,7 +52,7 @@ function ListPresensiStudent() {
       .card{
         border-radius: 0.625rem;
         background: #FFF;
-        box-shadow: -4px 5px 7.8px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: -4px 5px 8px 0px rgba(0, 0, 0, 0.1);
       }
       `}</style>
     </div>

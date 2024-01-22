@@ -6,7 +6,7 @@ function Schedule() {
   return (
     <div>
       <div
-        className="scrollable d-flex flex-row gap-4 overflow-auto flex-nowrap pb-3 pt-1 px-0"
+        className="scrollable d-flex flex-row gap-4 overflow-auto flex-nowrap pb-3 px-2 pt-1 px-0"
         style={{ maxWidth: "600px" }}
       >
         <div className="card d-flex flex-column align-items-start flex-shrink-0">
