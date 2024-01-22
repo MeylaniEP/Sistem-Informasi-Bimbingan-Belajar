@@ -5,15 +5,15 @@ function ListPresensi() {
   return (
     <div>
       <div className="d-flex flex-row mt-3 w-100">
-        <ul className="nav nav-pills d-flex flex-row gap-3 w-100">
+        <ul className="nav nav-pills d-flex flex-row gap-1 w-100">
           <li className="nav-item">
             <NavLink to={"presensi-today"} className="nav-link btn fw-bold" activeClassName="active">Hari ini</NavLink>
           </li>
           <li>
-            <NavLink to={"presensi-week"} className="nav-link btn fw-bold" activeClassName="active">Minggu ini</NavLink>
+            <NavLink to={"presensi-week"} className="nav-link btn fw-bold" activeClassName="active">Minggu</NavLink>
           </li>
           <li>
-            <NavLink to={"presensi-month"} className="nav-link btn fw-bold" activeClassName="active">Bulan ini</NavLink>
+            <NavLink to={"presensi-month"} className="nav-link btn fw-bold" activeClassName="active">Bulan</NavLink>
           </li>
         </ul>
       </div>
